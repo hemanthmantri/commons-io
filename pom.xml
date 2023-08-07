@@ -338,20 +338,6 @@ file comparators, endian transformation classes, and much more.
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>org.apache.rat</groupId>
-          <artifactId>apache-rat-plugin</artifactId>
-          <version>0.15</version>
-          <configuration>
-            <excludes>
-              <exclude>src/test/resources/**/*.bin</exclude>
-              <exclude>src/test/resources/dir-equals-tests/**</exclude>
-              <exclude>test/**</exclude>
-              <exclude>src/**</exclude> 
-	      <exclude>.m2/**</exclude>  
-            </excludes>
-          </configuration>
-        </plugin>
-        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
           <configuration>
